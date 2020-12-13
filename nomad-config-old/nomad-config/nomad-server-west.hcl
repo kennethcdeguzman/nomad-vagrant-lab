@@ -8,7 +8,7 @@ server {
 
 datacenter = "vancouver"
 
-region = "east"
+region = "west"
 
 advertise {
   http = "{{ GetInterfaceIP `eth1` }}"
@@ -25,7 +25,7 @@ plugin "raw_exec" {
 client {
   enabled           = true
   network_interface = "eth1"
-  servers           = ["172.16.1.201", "172.16.1.202","172.16.1.203"]
+  servers           = ["172.16.1.201", "172.16.1.202", "172.16.1.203"]
 }
 
 telemetry {

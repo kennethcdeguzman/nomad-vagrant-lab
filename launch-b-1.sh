@@ -11,6 +11,7 @@ fi
 sudo cp /vagrant/consul-config/consul-server-west.hcl /etc/consul.d/consul-server-west.hcl
 sudo nohup consul agent --config-file /etc/consul.d/consul-server-west.hcl &>$HOME/consul.log &
 
+
 # Form Nomad Cluster
 ps -C nomad
 retval=$?

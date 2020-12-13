@@ -6,7 +6,7 @@ server {
   job_gc_threshold = "2m"
 }
 
-datacenter = "vancouver"
+datacenter = "toronto"
 
 region = "east"
 
@@ -25,14 +25,5 @@ plugin "raw_exec" {
 client {
   enabled           = true
   network_interface = "eth1"
-  servers           = ["172.16.1.201", "172.16.1.202","172.16.1.203"]
+  servers           = ["172.16.1.101", "172.16.1.102", "172.16.1.103"]
 }
-
-telemetry {
-  collection_interval = "1s"
-  disable_hostname = true
-  prometheus_metrics = true
-  publish_allocation_metrics = true
-  publish_node_metrics = true
-}
-
