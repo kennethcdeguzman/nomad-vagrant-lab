@@ -25,7 +25,7 @@ job "example" {
   # "service". For a full list of job types and their differences, please see
   # the online documentation.
   #
-   For more information, please see the online documentation at:
+  # For more information, please see the online documentation at:
   #
   #     https://www.nomadproject.io/docs/jobspec/schedulers.html
   #
