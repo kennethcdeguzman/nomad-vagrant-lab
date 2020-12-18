@@ -17,6 +17,7 @@
 # This is an additional test 4
 # This is an additional test 5
 # This is an additional test 6
+# This is an additional test 7
 job "example" {
   # The "region" parameter specifies the region in which to execute the job. If
   # omitted, this inherits the default region name of "global".
